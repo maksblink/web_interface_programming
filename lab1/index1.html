@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja Sprzedaży Książek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sklep z Książkami</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="index2.html">Dodaj Książkę</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <h2>Wyszukiwanie Książek</h2>
+        <input type="text" id="searchInput" placeholder="Wpisz nazwę książki...">
+        <button>Wyszukaj</button>
+    </section>
+
+    <section id="filters">
+        <h2>Filtruj Książki</h2>
+        <label for="price">Cena:</label>
+        <input type="range" id="price" min="0" max="1000" step="10">
+        <label for="cover">Okładka:</label>
+        <select id="cover">
+            <option value="hardcover">Twarda</option>
+            <option value="softcover">Miękka</option>
+        </select>
+        <label for="author">Autor:</label>
+        <input type="text" id="author" placeholder="Autor">
+    </section>
+
+    <section id="bookList">
+        <h2>Wszystkie Książki</h2>
+        <!-- Przykładowe książki -->
+        <div class="book">
+            <h3>Książka 1</h3>
+            <p>Autor: Autor 1</p>
+            <p>Cena: 29.99 PLN</p>
+            <button>Dodaj do koszyka</button>
+        </div>
+        <div class="book">
+            <h3>Książka 2</h3>
+            <p>Autor: Autor 2</p>
+            <p>Cena: 39.99 PLN</p>
+            <button>Dodaj do koszyka</button>
+        </div>
+    </section>
+
+    <footer>
+        <button id="login">Zaloguj się</button>
+        <button id="logout">Wyloguj się</button>
+        <button id="cart">Koszyk</button>
+    </footer>
+
+</body>
+</html>
