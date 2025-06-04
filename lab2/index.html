@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ToDoList!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ToDoList!</h1>
+  <div>
+    <input type="text" id="search" placeholder="Szukaj..." />
+    <label><input type="checkbox" id="caseInsensitive" checked /> Ignoruj wielkość liter</label>
+  </div>
+
+  <button onclick="showAddListModal()">Nowa lista</button>
+  <div id="lists" class="lists"></div>
+
+  <div id="undo" class="hidden">
+    <button onclick="undoDelete()">Cofnij ostatnie usunięcie</button>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <p id="modalText"></p>
+    <button onclick="confirmDelete()">Tak</button>
+    <button onclick="hideModal()">Nie</button>
+  </div>
+  <div id="overlay" class="overlay hidden"></div>
+
+  <div id="addListModal" class="modal hidden">
+    <input type="text" id="newListName" placeholder="Nazwa listy" />
+    <button onclick="createList()">Dodaj</button>
+    <button onclick="hideAddListModal()">Anuluj</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
