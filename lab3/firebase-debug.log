@@ -1,0 +1,112 @@
+[debug] [2025-06-15T17:11:29.418Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T17:11:29.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\no_fe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-06-15T17:11:29.420Z] CLI Version:   14.7.0
+[debug] [2025-06-15T17:11:29.420Z] Platform:      win32
+[debug] [2025-06-15T17:11:29.420Z] Node Version:  v22.16.0
+[debug] [2025-06-15T17:11:29.420Z] Time:          Sun Jun 15 2025 19:11:29 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-15T17:11:29.420Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=281855959&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-15T17:11:58.205Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-15T17:12:28.242Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T17:12:28.244Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\no_fe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-06-15T17:12:28.244Z] CLI Version:   14.7.0
+[debug] [2025-06-15T17:12:28.244Z] Platform:      win32
+[debug] [2025-06-15T17:12:28.244Z] Node Version:  v22.16.0
+[debug] [2025-06-15T17:12:28.244Z] Time:          Sun Jun 15 2025 19:12:28 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-15T17:12:28.244Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=442677822&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-15T17:12:33.429Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-15T17:13:39.428Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T17:13:39.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\no_fe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-06-15T17:13:39.430Z] CLI Version:   14.7.0
+[debug] [2025-06-15T17:13:39.430Z] Platform:      win32
+[debug] [2025-06-15T17:13:39.430Z] Node Version:  v22.16.0
+[debug] [2025-06-15T17:13:39.430Z] Time:          Sun Jun 15 2025 19:13:39 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-15T17:13:39.430Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] i  To change your the preference at any time, run `firebase logout` and `firebase login` again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=875518523&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-15T17:16:07.185Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-15T17:16:24.157Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T17:16:24.159Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\no_fe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-06-15T17:16:24.159Z] CLI Version:   14.7.0
+[debug] [2025-06-15T17:16:24.159Z] Platform:      win32
+[debug] [2025-06-15T17:16:24.160Z] Node Version:  v22.16.0
+[debug] [2025-06-15T17:16:24.160Z] Time:          Sun Jun 15 2025 19:16:24 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-15T17:16:24.160Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=768644660&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-15T17:16:26.680Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-15T17:28:50.911Z] ----------------------------------------------------------------------
+[debug] [2025-06-15T17:28:50.913Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\no_fe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2025-06-15T17:28:50.913Z] CLI Version:   14.7.0
+[debug] [2025-06-15T17:28:50.913Z] Platform:      win32
+[debug] [2025-06-15T17:28:50.913Z] Node Version:  v22.16.0
+[debug] [2025-06-15T17:28:50.913Z] Time:          Sun Jun 15 2025 19:28:50 GMT+0200 (Central European Summer Time)
+[debug] [2025-06-15T17:28:50.913Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=589052258&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-15T17:28:55.511Z] Error: spawn cmd ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[error] 
+[error] Error: An unexpected error has occurred.
