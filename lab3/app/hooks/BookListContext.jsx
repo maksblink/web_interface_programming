@@ -13,7 +13,10 @@ export const BookListProvider = ({ children }) => {
 
   const fetchAllBooks = async () => {
     const snapshot = await getDocs(collection(firestore, "books"));
-    return snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
+    return snapshot.docs.map(doc => ({
+      ...doc.data(),
+      id: doc.id
+    }));
   };
 
   const toggleShowOnlyMine = (value) => {
@@ -23,13 +26,11 @@ export const BookListProvider = ({ children }) => {
   useEffect(() => {
     const load = async () => {
       try {
-        if (showOnlyMine && user) {
-          const books = await listBooksByUser(user.uid);
-          setBookList(books);
-        } else {
-          const books = await fetchAllBooks();
-          setBookList(books);
-        }
+        const books = showOnlyMine && user
+          ? await listBooksByUser(user.uid)
+          : await fetchAllBooks();
+
+        setBookList(Array.isArray(books) ? books : []);
       } catch (err) {
         console.error("Failed to load books:", err.message);
         setBookList([]);

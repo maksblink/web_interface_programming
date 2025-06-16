@@ -5,18 +5,17 @@ import { addBook } from "../engine/BookService";
 import { useUser } from "../engine/UserService";
 
 export default function AddBook() {
-  const user = useUser();
-  const { bookList, setBookList } = useContext(BookListContext);
+  const { user, loading } = useUser();
+  const { bookList = [], setBookList } = useContext(BookListContext);
 
   const [newBook, setNewBook] = useState({
     author: "",
     title: "",
     description: "",
-    price: 0.0,
+    price: 0,
     cover: true,
     pages: 0,
     image: "",
-    uid: user?.uid || "",
   });
 
   const handleChange = (field) => (ev) => {
@@ -28,18 +27,17 @@ export default function AddBook() {
     }));
   };
 
-  const handleNewBook = (e) => {
+  const handleNewBook = async (e) => {
     e.preventDefault();
+    if (!user) return alert("Musisz być zalogowany!");
 
-    const tempBook = {
-      id: bookList.length + 1,
-      ...newBook,
-      uid: user?.uid || "",
-    };
-
-    addBook(tempBook);
-    setBookList((prev) => prev.concat([tempBook]));
+    const savedBook = await addBook(newBook, user);
+    if (savedBook) {
+      setBookList([...bookList, savedBook]);
+    }
   };
+
+  if (loading) return <p>Loading...</p>;
 
   return (
     <section className="form-section">
@@ -51,7 +49,6 @@ export default function AddBook() {
         <input type="number" placeholder="Price" onChange={handleChange("price")} />
         <input type="number" placeholder="Pages" onChange={handleChange("pages")} />
         <input type="text" placeholder="Description" onChange={handleChange("description")} />
-
         <button type="submit">Add Book</button>
       </form>
 

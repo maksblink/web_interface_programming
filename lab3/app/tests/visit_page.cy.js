@@ -36,16 +36,12 @@ describe("📚 Library App E2E", () => {
 
     cy.contains("Add Book").click();
 
-    // Redirect not required, just reload
     cy.visit("http://localhost:5173/");
 
     cy.contains("Test Driven Dev").should("exist");
   });
 
   it("handles empty book list gracefully", () => {
-    // Optional: Simulate clear state if possible
-    // cy.clearLocalStorage(); or cy.intercept(...)
-
     cy.visit("http://localhost:5173/");
     cy.get("main").should("exist");
     cy.get("article#book-list-item").its("length").should("be.gte", 0);
